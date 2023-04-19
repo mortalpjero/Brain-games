@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/mortalpjero/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/mortalpjero/frontend-project-44/actions)",
   "bin": {
-  "brain-games": "bin/brain-games.js"
-},
+    "brain-games": "bin/brain-games.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
