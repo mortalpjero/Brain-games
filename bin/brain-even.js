@@ -1,11 +1,17 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
 
-const CORRECT_ANSWER = 'yes';
-const INCORRECT_ANSWER = 'no';
+// Defining correct answers
+
+const positiveAnswer = 'yes';
+const negativeAnswer = 'no';
+
+// Start of an app
 
 const userName = readlineSync.question('May I have your name? ');
 console.log(`Hello, ${userName}!`);
+
+// Guess if the number is even or not
 
 function playEvenNumberGame() {
   for (let i = 0; i < 3;) {
@@ -14,20 +20,13 @@ function playEvenNumberGame() {
     console.log(`Question: ${randomNum}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
-    if (randomNum % 2 === 0) {
-      if (userAnswer === CORRECT_ANSWER) {
-        console.log('Correct!');
-        i += 1;
-      } else {
-        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${CORRECT_ANSWER}'.`);
-        console.log(`Let's try again, ${userName}!`);
-        return;
-      }
-    } else if (userAnswer === INCORRECT_ANSWER) {
+    if (
+      (randomNum % 2 === 0 && userAnswer === positiveAnswer)
+      || (randomNum % 2 !== 0 && userAnswer === negativeAnswer)) {
       console.log('Correct!');
       i += 1;
     } else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${INCORRECT_ANSWER}'.`);
+      console.log(`'${userAnswer}' is the wrong answer. The correct answer was '${randomNum % 2 === 0 ? positiveAnswer : negativeAnswer}'.`);
       console.log(`Let's try again, ${userName}!`);
       return;
     }
