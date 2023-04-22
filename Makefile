@@ -10,6 +10,9 @@ braineven:
 braincalc:
 	node bin/brain-calc.js
 
+braingcd:
+	node bin/brain-gcd.js
+
 publish:
 	npm publish --dry-run
 
