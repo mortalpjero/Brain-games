@@ -22,3 +22,8 @@ A preview of a Brain-progression game:
 In this game you have to guess the missing number in the progression.
 
 [![Brain-progression Preview](https://asciinema.org/a/d3SVTJwL6snSnfOfMWOPf5Y20.svg)](https://asciinema.org/a/d3SVTJwL6snSnfOfMWOPf5Y20)
+
+A preview of a Brain-prime game:
+In this game you have to guess if the number is prime or not.
+
+[![Brain-prime Preview](https://asciinema.org/a/nsKpEHdfS5llTJSbtqggUxYgP.svg)](https://asciinema.org/a/nsKpEHdfS5llTJSbtqggUxYgP)
