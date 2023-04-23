@@ -8,3 +8,7 @@
 [![Brain-calc Preview]](https://asciinema.org/a/0sGJX8YcTW24ebf0jTbxRVqJU)
 
 [![Brain-gcd Preview]](https://asciinema.org/a/Vnrq3QMCvge3DaDSZgrwRKmh1)
+
+[![Brain-progression Preview](https://asciinema.org/a/d3SVTJwL6snSnfOfMWOPf5Y20.svg)](https://asciinema.org/a/d3SVTJwL6snSnfOfMWOPf5Y20)
+
+<script async id="asciicast-d3SVTJwL6snSnfOfMWOPf5Y20" src="https://asciinema.org/a/d3SVTJwL6snSnfOfMWOPf5Y20.js"></script>
