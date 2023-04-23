@@ -11,8 +11,8 @@ const gameLogics = (rules, generateRound) => {
   console.log(rules);
 
   while (answersCount < maxAtempts) {
-    const [question, rightAnswer] = generateRound();
-    console.log(`question: ${question}`);
+    const [number, rightAnswer] = generateRound();
+    console.log(`Question: ${number}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer === rightAnswer) {
       console.log('Correct!');
